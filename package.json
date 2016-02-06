@@ -1,0 +1,81 @@
+{
+  "name": "koa-mongo-rest",
+  "version": "0.3.4",
+  "description": "generate REST API with koa and mongo",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/t3chnoboy/koa-mongo-rest.git"
+  },
+  "keywords": [
+    "koa",
+    "REST",
+    "API",
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "es6",
+    "generators",
+    "database",
+    "db"
+  ],
+  "author": {
+    "name": "Dmitry Mazuro",
+    "email": "dmitry.mazuro@icloud.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/t3chnoboy/koa-mongo-rest/issues"
+  },
+  "homepage": "https://github.com/t3chnoboy/koa-mongo-rest",
+  "dependencies": {
+    "koa-body-parser": "git://github.com/tomaash/koa-body-parser.git",
+    "mongoose": "^4.0.2",
+    "pluralize": "1.1.2"
+  },
+  "devDependencies": {
+    "co-mocha": "0.0.2",
+    "coffee-script": "git://github.com/xixixao/coffee-script.git",
+    "gulp": "^3.6.0",
+    "gulp-coffee-es6": "git://github.com/t3chnoboy/gulp-coffee-es6.git",
+    "gulp-nodemon": "^1.0.2",
+    "koa": "^0.5.2",
+    "koa-logger": "^1.2.0",
+    "koa-router": "^3.1.2",
+    "should": "^3.2.0-beta1",
+    "supertest": "^0.10.0"
+  },
+  "gitHead": "55724c658d6c1f294968637596924bd71f09e811",
+  "_id": "koa-mongo-rest@0.3.4",
+  "_shasum": "387174b012f50eccef4745c9c8edaae5ac9e7629",
+  "_from": "koa-mongo-rest@*",
+  "_npmVersion": "2.8.3",
+  "_nodeVersion": "1.8.1",
+  "_npmUser": {
+    "name": "tomaash",
+    "email": "tomas.holas@gmail.com"
+  },
+  "dist": {
+    "shasum": "387174b012f50eccef4745c9c8edaae5ac9e7629",
+    "tarball": "http://registry.npmjs.org/koa-mongo-rest/-/koa-mongo-rest-0.3.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "t3chnoboy",
+      "email": "dmitry.mazuro@icloud.com"
+    },
+    {
+      "name": "tomaash",
+      "email": "tomas.holas@gmail.com"
+    },
+    {
+      "name": "mgenev",
+      "email": "mgenev@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/koa-mongo-rest/-/koa-mongo-rest-0.3.4.tgz"
+}
