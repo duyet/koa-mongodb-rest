@@ -1,5 +1,5 @@
 {
-  "name": "koa-mongo-rest",
+  "name": "koa-mongodb-rest",
   "version": "0.3.4",
   "description": "generate REST API with koa and mongo",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/t3chnoboy/koa-mongo-rest.git"
+    "url": "git+ssh://git@github.com/duyetdev/koa-mongodb-rest.git"
   },
   "keywords": [
     "koa",
@@ -23,14 +23,14 @@
     "db"
   ],
   "author": {
-    "name": "Dmitry Mazuro",
-    "email": "dmitry.mazuro@icloud.com"
+    "name": "Van-Duyet Le",
+    "email": "me@duyetdev.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/t3chnoboy/koa-mongo-rest/issues"
+    "url": "https://github.com/duyetdev/koa-mongodb-rest/issues"
   },
-  "homepage": "https://github.com/t3chnoboy/koa-mongo-rest",
+  "homepage": "https://github.com/duyetdev/koa-mongodb-rest",
   "dependencies": {
     "koa-body-parser": "git://github.com/tomaash/koa-body-parser.git",
     "mongoose": "^4.0.2",
@@ -58,10 +58,6 @@
     "name": "tomaash",
     "email": "tomas.holas@gmail.com"
   },
-  "dist": {
-    "shasum": "387174b012f50eccef4745c9c8edaae5ac9e7629",
-    "tarball": "http://registry.npmjs.org/koa-mongo-rest/-/koa-mongo-rest-0.3.4.tgz"
-  },
   "maintainers": [
     {
       "name": "t3chnoboy",
@@ -75,7 +71,5 @@
       "name": "mgenev",
       "email": "mgenev@gmail.com"
     }
-  ],
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/koa-mongo-rest/-/koa-mongo-rest-0.3.4.tgz"
+  ]
 }
