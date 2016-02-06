@@ -9,21 +9,20 @@ Easy REST api for [koa](http://koajs.com) server
 ## Installation
 Install using npm:
 ```sh
-npm install koa-mongo-rest
+npm install koa-mongodb-rest
 ```
 
 ## Usage
 
 Require library
 ```javascript
-generateApi = require('koa-mongo-rest');
+generateApi = require('koa-mongodb-rest');
 ```
 
 Create mongoose model
 ```javascript
-mongoUrl = '127.0.0.1:27017';
 mongoose = require('mongoose');
-mongoose.connect(mongoUrl);
+mongoose.connect('mongodb://127.0.0.1/db');
 
 schema = new mongoose.Schema({
   email: String,
@@ -40,7 +39,7 @@ model = mongoose.model('users', schema);
 Create server
 ```javascript
 var koa = require('koa');
-var router = require('koa-router');
+var route = require('koa-route');
 
 var app = koa();
 
@@ -49,7 +48,7 @@ app.use(router(app));
 
 
 //add REST routes to your app. Prefix is optional
-generateApi(app, model, '/api');
+generateApi(app, route, model, '/api');
 
 app.listen(process.env.PORT || 5000);
 ```
