@@ -4,7 +4,9 @@
   "description": "generate REST API with koa and mongo",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --harmony"
+    "test": "mocha --harmony",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,8 @@
   "dependencies": {
     "koa-body-parser": "git://github.com/tomaash/koa-body-parser.git",
     "mongoose": "^4.0.2",
-    "pluralize": "1.1.2"
+    "pluralize": "1.1.2",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "co-mocha": "0.0.2",
@@ -71,5 +74,6 @@
       "name": "mgenev",
       "email": "mgenev@gmail.com"
     }
-  ]
+  ],
+  "snyk": true
 }
