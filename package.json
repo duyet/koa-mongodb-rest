@@ -33,7 +33,7 @@
   "homepage": "https://github.com/duyetdev/koa-mongodb-rest",
   "dependencies": {
     "koa-body-parser": "git://github.com/tomaash/koa-body-parser.git",
-    "mongoose": "^4.0.2",
+    "mongoose": "^5.3.9",
     "pluralize": "1.1.2"
   },
   "devDependencies": {
